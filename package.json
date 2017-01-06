@@ -1,0 +1,20 @@
+{
+  "name": "which-tachyons-module",
+  "description": "Small module for finding the specific Tachyon modules you've used",
+  "author": "Simon Brix",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "Briix/which-tachyons-module",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}
