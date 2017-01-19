@@ -26,11 +26,6 @@ const inBlacklist = value =>
 const returnNames = arr =>
   arr.map((x) => x.name)
 
-const log = item => {
-  console.log(item)
-  return item
-}
-
 const resolve = value =>
   cssResolve(value, { basedir: __dirname })
 
