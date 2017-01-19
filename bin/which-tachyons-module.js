@@ -5,7 +5,7 @@ const fs = require('fs')
 const program = require('commander')
 const data = require('../data.js')
 
-const version = '0.1.0'
+const version = '0.2.0'
 
 program
   .version(version)

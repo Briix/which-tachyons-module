@@ -2,7 +2,7 @@
   "name": "which-tachyons-module",
   "description": "Small module for finding the specific Tachyon modules you've used",
   "author": "Simon Brix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "bin": {
     "wtm": "./bin/which-tachyons-module.js",

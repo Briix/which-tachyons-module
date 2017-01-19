@@ -1,19 +1,27 @@
 # which-tachyons-module [![Build Status](https://secure.travis-ci.org/Briix/which-tachyons-module.png?branch=master)](https://travis-ci.org/Briix/which-tachyons-module) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Small module for finding the specific Tachyon modules you've used
+Small module for finding the specific Tachyon modules you've used.
+When I build new things with Tachyons, I usually just use the CDN or include
+the base package. This works, but when I later want to cut down the CSS bundle
+size because I don't realistically use all of Tachyons it's tough figuring out
+exactly which modules I have used. This little command line tool helps with
+that.
 
 ## Installation
 
 ```bash
-npm install --save which-tachyons-module
+npm install -g which-tachyons-module
 ```
 
 ## Usage
+which-tachyons-module takes a .html file as input and outputs the various
+Tachyons modules used in that .html file based on its classes.
 
-```javascript
-var whichTachyonsModule = require('which-tachyons-module')
+```bash
+$ wtm index.html
 
-whichTachyonsModule()  // => true
+# Outputs e.g.
+# tachyons-borders tachyons-border-widths tachyons-heights tachyons-spacing
 ```
 
 ## License
